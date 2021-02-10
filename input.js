@@ -21,7 +21,15 @@ const handleUserInput = function(input, conn) {
   if (input === '\u0064') {
     conn.write("Move: right");
   }
-
+  if (input === '\u0079') {
+    conn.write("Say: yes!");
+  }
+  if (input === '\u006E') {
+    conn.write("Say: watch this all day");
+  }
+  if (input === '\u0074') {
+    conn.write("Onward!");
+  }
 }
 
 const setupInput = function(conn) {
